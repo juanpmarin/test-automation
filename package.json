@@ -1,8 +1,9 @@
 {
   "name": "test-automation",
   "version": "0.0.0",
-  "description": "Test automation initiative",
+  "description": "Showcase of some best practices and tools for test automation.",
   "scripts": {
+    "docs": "docsify serve docs",
     "commit": "git-cz"
   },
   "repository": {
@@ -14,9 +15,10 @@
   "bugs": {
     "url": "https://github.com/juanpmarin/test-automation/issues"
   },
-  "homepage": "https://github.com/juanpmarin/test-automation#readme",
+  "homepage": "https://juanpmarin.github.io/test-automation",
   "devDependencies": {
-    "cz-conventional-changelog": "^3.0.2"
+    "cz-conventional-changelog": "^3.0.2",
+    "docsify-cli": "^4.3.0"
   },
   "config": {
     "commitizen": {
